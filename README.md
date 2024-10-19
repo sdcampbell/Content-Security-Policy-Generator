@@ -19,16 +19,16 @@ This Python script analyzes a website and generates a Content Security Policy (C
 
 ## Usage
 
-Run the script from the command line, providing the URL of the website you want to analyze:
+Run the script from the command line, providing the URL of the page you want to analyze:
 
 ```
-python csp_generator.py https://www.example.com
+python csp_generator.py https://www.example.com/foo
 ```
 
 To enable CSP violation reporting, add the `--report-uri` argument:
 
 ```
-python csp_generator.py https://www.example.com --report-uri https://your-reporting-endpoint.com/csp-report
+python csp_generator.py https://www.example.com/foo --report-uri https://your-reporting-endpoint.com/csp-report
 ```
 
 ### Which Pages to Analyze
